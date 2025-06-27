@@ -1,1 +1,31 @@
+# Ignore Python cache and virtual env stuff
+__pycache__/
+*.py[cod]
+*.so
+*.ipynb_checkpoints/
+*.pkl
+*.joblib
+
+# Ignore Jupyter notebook output files (optional)
+*.out
+*.log
+
+# VS Code and other IDE settings
+.vscode/
+.idea/
+
+# Conda environment lock files
+*.yaml
+*.yml
+*.lock
+
+# Ignore OS junk
+.DS_Store
+Thumbs.db
+
+# Ignore data — you should version only code
+data/
+!data/README.md  # keep readme if you explain the structure
+
+# Ignore kaggle credentials
 .kaggle/
