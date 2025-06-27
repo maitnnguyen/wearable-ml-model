@@ -1,0 +1,6 @@
+# Add to requirements.txt
+kaggle==1.5.13
+cryptography==39.0.1
+pyOpenSSL==23.1.1
+urllib3==1.26.15
+
