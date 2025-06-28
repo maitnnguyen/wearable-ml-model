@@ -1,5 +1,6 @@
 name: wearable-ml
 channels:
+  - plotly
   - conda-forge
   - bioconda
   - defaults
@@ -12,9 +13,11 @@ dependencies:
   - liblzma=5.8.1
   - libsqlite=3.50.1
   - libzlib=1.3.1
+  - narwhals=1.44.0
   - ncurses=6.5
   - openssl=3.5.0
   - pip=25.1.1
+  - plotly=6.0.0
   - python=3.10.18
   - readline=8.2
   - setuptools=80.9.0
